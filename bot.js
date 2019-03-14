@@ -1,7 +1,7 @@
 ﻿const Discord = require('discord.js');
-const devs = ['389090790984515594'];
+const devs = ['487335775814287360'];
 const db = require('quick.db');
-const premium = ['470896018603376640']
+const premium = ['487335775814287360']
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -124,17 +124,6 @@ ${prefix}color <number> / لختيار لون
 ${prefix}deletecolors <number> / لحذف الالوان
 **
    `,`
-        ***__Music orders__***
-**
-${prefix}play / لتشغيل أغنية برآبط أو بأسم
-${prefix}skip / لتجآوز الأغنية الحآلية
-${prefix}pause / إيقآف الأغنية مؤقتا
-${prefix}resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-${prefix}vol / لتغيير درجة الصوت 100 - 0
-${prefix}stop / لإخرآج البوت من الروم
-${prefix}np / لمعرفة الأغنية المشغلة حآليا
-${prefix}queue / لمعرفة قآئمة التشغيل
-**
        =.=.=.=.=.
 welcome يتم الترحيب فى روم باسم
 -setwelcomer <text channel name> لاختيار روم للترحيب
