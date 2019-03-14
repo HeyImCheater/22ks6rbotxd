@@ -375,7 +375,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "Wings Community ©"
+                  text: "Arab Community ©"
                 }
             }}
             )
@@ -693,12 +693,12 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 client.users.get("516473846983950336").send(
-    "\n" + "**" + "? السيرفر :" + "**" +
-    "\n" + "**" + "» " + message.guild.name + "**" +
-    "\n" + "**" + " ? المرسل : " + "**" +
-    "\n" + "**" + "» " + message.author.tag + "**" +
-    "\n" + "**" + " ? الرسالة : " + "**" +
-    "\n" + "**" + args + "**")
+    "\n" + "**" + "? :cyclone:Server :" + "**" +
+    "\n" + "`" + "» " + message.guild.name + "`" +
+    "\n" + "**" + " ? :speaking_head:Sender : " + "**" +
+    "\n" + "`" + "» " + message.author.tag + "`" +
+    "\n" + "**" + " ? :incoming_envelope:Message : " + "**" +
+    "\n" + "`" + args + "`")
 
 let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
@@ -805,11 +805,11 @@ client.on('message' , message => {
                 }
             message.guild.members.filter(m => m.roles.get(role.id)).forEach(n => {
               n.send(
-              "**" + "السيرفر :" + "\n" +
+              "**" + ":cyclone:Server :" + "\n" +
               `${message.guild.name}` + "\n" +
-              "المرسل :" + "\n" +
+              ":speaking_head:Sender :" + "\n" +
               `${message.author.tag}` + "\n" +
-              "الرسالة :" + "\n" +
+              "ا:incoming_envelope:Message :" + "\n" +
               `${codes}` + "**"
               )
             })
